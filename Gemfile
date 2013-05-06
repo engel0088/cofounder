@@ -11,7 +11,7 @@ end
 
 group :production do
   gem 'thin'
-  gem 'pg'
+  gem 'mysql2'
 end
 
 # Gems used only for assets and not required
@@ -24,10 +24,13 @@ group :assets do
   # gem 'therubyracer', :platforms => :ruby
 
   gem 'uglifier', '>= 1.0.3'
+  gem 'turbo-sprockets-rails3'
 end
 
 gem 'jquery-rails'
 
+gem 'thor'
+gem 'minitest'
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
