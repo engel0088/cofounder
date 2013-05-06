@@ -15,7 +15,7 @@ class MembersController < ApplicationController
     @members = Member.all
 
     respond_to do |format|
-      format.html # index_members.html.erb
+      format.html { render :layout => 'index_members'} # index_members.html.erb
     end
   end
 

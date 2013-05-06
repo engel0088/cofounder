@@ -2,33 +2,14 @@
 <html>
 <head>
   <title>Cofounderlab</title>
-  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= stylesheet_link_tag "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
+  <%= javascript_include_tag "scaffold" %>
   <%= csrf_meta_tags %>
 </head>
-
 <body>
 
-   <div id="main_wrapper" class="main_wrapper">
+<%= yield %>
 
-      <!-- header part start -->
-      <div id="header" class="header">
-         <%= render :partial => 'shared/header' %>
-      </div>
-      <!-- header part end -->
-
-      <!-- container start -->
-      <div class="baseClass">
-         <%= yield %>
-      </div>
-      <!-- containter end -->
-   </div>
-   <!-- main wrapper end -->
-
-
-   <!-- footer start -->
-   <div id="footer">
-   </div>
-   <!-- footer end -->
 </body>
 </html>
