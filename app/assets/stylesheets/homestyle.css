@@ -222,9 +222,9 @@ body { margin:0px; padding:0px; background:#fff; color: #595F63; font-family: 'O
 .or hr { margin:5px 0px !important;}
 .logwt { float:left; padding-top:6px; font-size:14px;}
 .or span { background:#fff; position:relative; top:-14px; padding:10px; z-index:5;}
-.sign_icons .fb_01 {background: url(../images/icons.png) no-repeat -59px -52px; width:23px; height:23px; display:block;}
-.sign_icons .tw_01 {background: url(../images/icons.png) no-repeat -82px -52px; width:23px; height:23px; display:block;}
-.sign_icons .in_01 {background: url(../images/icons.png) no-repeat -105px -52px; width:23px; height:23px; display:block;}
+.sign_icons .fb_01 {background: url(/assets/icons.png) no-repeat -59px -52px; width:23px; height:23px; display:block;}
+.sign_icons .tw_01 {background: url(/assets/icons.png) no-repeat -82px -52px; width:23px; height:23px; display:block;}
+.sign_icons .in_01 {background: url(/assets/icons.png) no-repeat -105px -52px; width:23px; height:23px; display:block;}
 
 .sign_icons .fb_01:hover { background-position:-59px -76px;}
 .sign_icons .tw_01:hover { background-position:-82px -76px;}
@@ -238,7 +238,7 @@ body { margin:0px; padding:0px; background:#fff; color: #595F63; font-family: 'O
 .logout{ float:right; width:55px; padding-top:25px;  position:relative; z-index:1111; cursor:pointer;}
 .prf_pic { float:left; width:30px; height:35px; border:1px solid #c0c0c0; background:#d8d8d8; text-align:center; overflow:hidden;}
 
-.logout .arrow { width:9px; height:5px; display:block; float: right; margin:15px 0 0 0; background:url(../images/icons.png) no-repeat -33px 0;}
+.logout .arrow { width:9px; height:5px; display:block; float: right; margin:15px 0 0 0; background:url(/assets/icons.png) no-repeat -33px 0;}
 .logout .arrow:hover { background-position:-33px -5px;}
 
 /*dropdown*/
@@ -252,11 +252,11 @@ padding:8px 10px 7px 19px;}
 
 .drop_cnt ul li:last-child{ border:none;}
 
-.drop_cnt ul li a .prof { background:url(../images/icons.png) no-repeat -30px -12px; float:left; margin:3px 19px 0 0; width:18px; height:17px; display:block;}
-.drop_cnt ul li a .cand { background:url(../images/icons.png) no-repeat -30px -50px; float:left; margin:4px 19px 0 0; width:19px; height:14px; display:block;}
-.drop_cnt ul li a .msg { background:url(../images/icons.png) no-repeat -30px -82px; float:left; margin:5px 19px 0 0; width:17px; height:12px; display:block;}
-.drop_cnt ul li a .stg { background:url(../images/icons.png) no-repeat -30px -107px; float:left; margin:3px 19px 0 0; width:18px; height:18px; display:block;}
-.drop_cnt ul li a .logout_icon { background:url(../images/icons.png) no-repeat -48px 0px; float:left; margin:3px 19px 0 0; width:18px; height:16px; display:block;}
+.drop_cnt ul li a .prof { background:url(/assets/icons.png) no-repeat -30px -12px; float:left; margin:3px 19px 0 0; width:18px; height:17px; display:block;}
+.drop_cnt ul li a .cand { background:url(/assets/icons.png) no-repeat -30px -50px; float:left; margin:4px 19px 0 0; width:19px; height:14px; display:block;}
+.drop_cnt ul li a .msg { background:url(/assets/icons.png) no-repeat -30px -82px; float:left; margin:5px 19px 0 0; width:17px; height:12px; display:block;}
+.drop_cnt ul li a .stg { background:url(/assets/icons.png) no-repeat -30px -107px; float:left; margin:3px 19px 0 0; width:18px; height:18px; display:block;}
+.drop_cnt ul li a .logout_icon { background:url(/assets/icons.png) no-repeat -48px 0px; float:left; margin:3px 19px 0 0; width:18px; height:16px; display:block;}
 
 .drop_cnt ul li a:hover .prof { background-position:-30px -31px;}
 .drop_cnt ul li a:hover .cand { background-position:-30px -66px;}
@@ -283,7 +283,7 @@ padding:8px 10px 7px 19px;}
 /*== RECENT MACHES =====================*/
 .rct_mch_wrap { float:right; width:231px; height:393px; margin-top:-8px; background:#FFF; -webkit-box-shadow: #333 0px 2px 8px; -moz-box-shadow: #333 0px 2px 8px; box-shadow: #333 0px 2px 8px; -webkit-border-radius:6px; -moz-border-radius: 6px; border-radius: 6px; behavior: url(css/PIE.htc);}
 
-.rct_icon { background:url(../images/icons.png) no-repeat 0px 0px; width:32px; height:19px; display:block; margin:0 auto;}
+.rct_icon { background:url(/assets/icons.png) no-repeat 0px 0px; width:32px; height:19px; display:block; margin:0 auto;}
 .rct_mch_text {font-weight:bold; font-family: 'Open Sans', sans-serif; font-size:20px; color:#FFF; padding-top:13px;}
 .rct_mch_contents { text-align:center; overflow:hidden;}
 .recent_matches_ul{ width:100%;}
@@ -370,16 +370,16 @@ background-clip: padding-box; /* for browsers that fully support background clip
 .footer_right { float:right; width:285px;}
 .footer_right .social { float:left; width:100px;  padding:30px 0 0 0;}
 .logo_foot { float:right; width:163px;}
-.fb { background:url(../images/icons.png) no-repeat 0 -32px; width:29px; height:29px; display: block; float:left; margin-right:15px;}
+.fb { background:url(/assets/icons.png) no-repeat 0 -32px; width:29px; height:29px; display: block; float:left; margin-right:15px;}
 .fb:hover { background-position:0 -61px;}
-.tw { background:url(../images/icons.png) no-repeat 0 -90px; width:29px; height:29px; display: block; float:left;}
+.tw { background:url(/assets/icons.png) no-repeat 0 -90px; width:29px; height:29px; display: block; float:left;}
 .tw:hover { background-position:0 -119px;}
 .logo_foot { padding-top:22px; text-align:right; font-weight: normal; line-height:14px; font-family: 'Open Sans', sans-serif; font-size:14px; color:#cccccc;}
-.ftr_logo {background:url(../images/icons.png) no-repeat 0 -148px; width:163px; height:19px; display: block; margin-top:10px; }
+.ftr_logo {background:url(/assets/icons.png) no-repeat 0 -148px; width:163px; height:19px; display: block; margin-top:10px; }
 /*== FOOTER END =====================*/
 
 /*HOME PAGE ADVANCED SEARCH DROPDOWN MENU START*/
-.dropdown_arrow { background:url(../images/icons.png) no-repeat -33px top; display: block; height:5px; position: absolute; right: 15px; top: 19px; width: 9px; z-index:991;}
+.dropdown_arrow { background:url(/assets/icons.png) no-repeat -33px top; display: block; height:5px; position: absolute; right: 15px; top: 19px; width: 9px; z-index:991;}
 
 .advnc_srch_itm { z-index:990; position:relative; background-color:#fff;  -webkit-border-radius:6px; -moz-border-radius: 6px; border-radius: 6px; } 
 .advnc_srch_itm a {color: #666666; display: block; font-family: 'Open Sans',sans-serif; font-size: 15px; padding:8px 15px 9px 10px; text-decoration: none; position:relative; z-index:6; border:1px solid #ccc; -webkit-border-radius:6px; -moz-border-radius: 6px; border-radius: 6px; -moz-box-shadow:inset 1px 1px 3px #ccc; -webkit-box-shadow: inset 1px 1px 3px #ccc; box-shadow: inset 1px 1px 3px #ccc; behavior: url(css/PIE.htc); }
