@@ -9,6 +9,11 @@ class MembersController < ApplicationController
       format.json { render json: @members }
     end
   end
+  
+  def index_members
+    @members = Member.all
+    render :action => 'index'
+  end
 
   # GET /members/1
   # GET /members/1.json
