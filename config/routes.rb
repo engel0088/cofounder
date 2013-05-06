@@ -1,6 +1,6 @@
 Cofounderlab::Application.routes.draw do
   resources :members
-
+  root :to => 'member#index'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
