@@ -1,0 +1,32 @@
+.bundle
+.rvmrc
+db/*.sqlite3
+log/*.log
+tmp/
+.sass-cache/
+db/
+*~
+.\#*
+# /public
+public/cuke.html
+public/assets
+
+/nbproject/private/
+/.yardoc/
+unicorn/*.log
+config/couchdb.yml
+*.orig
+.powrc
+*.DS_Store
+.DS_store
+# ctags file
+.tags
+.tags_sorted_by_file
+
+coverage/
+.idea/
+
+app/.DS_Store
+
+
+*.swp
