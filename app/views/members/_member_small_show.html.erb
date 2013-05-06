@@ -1,0 +1,67 @@
+<div style="height:221px;" id="div_<%= member.id %>" class="profileOutLeft">
+
+
+<!--profileDetails start =================== -->
+<div style="height:175px;" class="profileDetails">
+
+
+
+<div class="newIcon">
+<% if member.level == 5 %>
+<img width="82" height="85" alt="" src="/assets/pro_user_tag_profile.png">
+<% elsif member.level == 1%>
+<img width="82" height="85" alt="" src="/assets/new_user_tag.png">
+<% else %>
+
+<% end %>
+
+<!--Tool tip starts-->
+<div id="tooltp_wrp_pro_home_13778" class="tooltp_wrp_pro_home">
+<div class="tooltp_home_close"><img width="25" height="29" src="/n/images/x.png" id="tooltp_home_close_13778"></div>
+<div class="ttipinwrp_home">
+<p id="ttip_home_cnt_13778">
+Sonny is a Pro Member. Learn more about <a href="/pro-membership">Pro Membership</a>.
+</p>
+<div class="tooltp_arw_home_top"></div>
+<div class="clear"></div>
+</div>
+<div class="clear"></div>
+</div>
+<!--Tool tip ends-->
+</div> 
+<h1><%= link_to member.name, member, {:style =>"text-decoration:none;"} %></h1>
+<div class="state_sec"><%= member.location %></div>
+
+
+<div style="height:145px;" class="img1">
+<div class="perDetails2">
+
+<div class="leftSec">
+<%= link_to (member_path(member)) do %>
+<img width="94" height="110" alt="" src="<%=member.photo_url%>">
+<% end %>
+</div>                  	
+<div style="border:none;" class="rightSec">
+<p class="profile_det"><span class="left">I'm a</span><span class="right">:</span></p><p class="profile_cont"><%= member.title %></p>
+<div class="clear"></div>
+<p class="profile_det"><span class="left">Looking for a</span><span class="right">:</span></p><p class="profile_cont"><%= member.lookfor %></p>
+<div class="clear"></div>
+<p class="profile_det"><span class="left">Industry</span><span class="right">:</span></p><p class="profile_cont"><span><%= member.industry %>
+</span>
+</p>
+<div class="clear"></div>
+
+
+<%= link_to member_path(member), {:style => "float:right;margin-right:-10px;"} do %>
+<img width="99" height="35" border="0" alt="" src="/assets/readmore.png">
+<% end %>
+
+</div>
+</div>
+</div>
+
+
+</div> 
+<!--profileDetails end =================== -->
+
+</div>

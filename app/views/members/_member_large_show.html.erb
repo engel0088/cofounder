@@ -51,7 +51,7 @@ Diego is a Pro Member. Learn more about <a href="/pro-membership">Pro Membership
 <div class="clear"></div>
 <p class="profile_det"><span class="left">Looking for a</span><span class="right">:</span></p><p class="profile_cont"><%= member.lookfor%></p>
 <div class="clear"></div>
-<p class="profile_det"><span class="left">Industry</span><span class="right">:</span></p><p class="profile_cont"><span>Software</span></p>
+<p class="profile_det"><span class="left">Industry</span><span class="right">:</span></p><p class="profile_cont"><span><%= member.industry %></span></p>
 </div>
 </div>
 <div class="subHead">
@@ -205,7 +205,9 @@ Diego is a Pro Member. Learn more about <a href="/pro-membership">Pro Membership
 <div id="fav_msg_11059" class="fav_msg"></div>
 </div>
 
-<a href="/profile/brooklyn-ny-business-developer-software-diego-regules-11059"><img width="99" height="35" border="0" alt="" src="/assets/readmore.png"></a>
+<%= link_to (member_path(member)) do %>
+<img width="99" height="35" border="0" alt="" src="/assets/readmore.png">
+<% end %>
 </div>
 
 
