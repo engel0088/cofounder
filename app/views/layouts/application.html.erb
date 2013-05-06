@@ -6,9 +6,28 @@
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
 </head>
+
 <body>
 
-<%= yield %>
+   <div id="main_wrapper" class="main_wrapper">
 
+      <!-- header part start -->
+      <div id="header" class="header">
+      </div>
+      <!-- header part end -->
+
+      <!-- container start -->
+      <div class="baseClass">
+         <%= yield %>
+      </div>
+      <!-- containter end -->
+   </div>
+   <!-- main wrapper end -->
+
+
+   <!-- footer start -->
+   <div id="footer">
+   </div>
+   <!-- footer end -->
 </body>
 </html>

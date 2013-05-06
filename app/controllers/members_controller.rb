@@ -12,7 +12,10 @@ class MembersController < ApplicationController
   
   def index_members
     @members = Member.all
-    render :action => 'index'
+
+    respond_to do |format|
+      format.html # index_members.html.erb
+    end
   end
 
   # GET /members/1
