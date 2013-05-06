@@ -1,4 +1,4 @@
-<div id="div_11059" class="profileOutLeft">
+<div id="div_<%= member.id %>" class="profileOutLeft">
 
 
 <!--profileDetails start =================== -->
@@ -7,7 +7,14 @@
 
 
 <div class="newIcon proIcon">
-<img width="82" height="85" alt="" src="/n/themes/basic/images/pro_user_tag_profile.png">
+
+<% if member.level == 5 %>
+<img width="82" height="85" alt="" src="/assets/pro_user_tag_profile.png">
+<% elsif member.level == 1%>
+<img width="82" height="85" alt="" src="/assets/new_user_tag.png">
+<% else %>
+
+<% end %>
 <!--Tool tip starts-->
 <div id="tooltp_wrp_pro_home_11059" class="tooltp_wrp_pro_home" style="display: none;">
 <div class="tooltp_home_close"><img width="25" height="29" src="/n/images/x.png" id="tooltp_home_close_11059"></div>
@@ -22,8 +29,8 @@ Diego is a Pro Member. Learn more about <a href="/pro-membership">Pro Membership
 </div>
 <!--Tool tip ends-->
 </div> 
-<h1><a style="text-decoration:none;" href="/profile/brooklyn-ny-business-developer-software-diego-regules-11059">Diego Regules</a></h1>
-<div class="state">Brooklyn</div>
+<h1><%= link_to member.name, member, {style: "text-decoration:none;" } %></h1>
+<div class="state"><%= member.location%></div>
 
 <!--slide show starts here-->       
 <div class="sldeOuter"><!--slide outer starts-->
@@ -34,22 +41,28 @@ Diego is a Pro Member. Learn more about <a href="/pro-membership">Pro Membership
 <div class="img1">
 <div class="perDetails2">
 
-<div class="leftSec"><a href="/profile/brooklyn-ny-business-developer-software-diego-regules-11059"><img width="94" height="110" alt="" src="/users/u11059_1364229261.jpg"></a></div>                  	
+<div class="leftSec"><%= link_to (member_path(member)) do %>
+<img width="94" height="110" alt="" src="<%=member.photo_url%>">
+<% end %>
+</div>                  	
+
 <div class="rightSec">
-<p class="profile_det"><span class="left">I'm a</span><span class="right">:</span></p><p class="profile_cont">Business Developer</p>
+<p class="profile_det"><span class="left">I'm a</span><span class="right">:</span></p><p class="profile_cont"><%= member.title%></p>
 <div class="clear"></div>
-<p class="profile_det"><span class="left">Looking for a</span><span class="right">:</span></p><p class="profile_cont">Programmer/Developer</p>
+<p class="profile_det"><span class="left">Looking for a</span><span class="right">:</span></p><p class="profile_cont"><%= member.lookfor%></p>
 <div class="clear"></div>
 <p class="profile_det"><span class="left">Industry</span><span class="right">:</span></p><p class="profile_cont"><span>Software</span></p>
 </div>
 </div>
 <div class="subHead">
-<div class="icon_heading2"></div>                                                        <h3>Seeking someone to join them</h3>
+<div class="icon_heading2"></div>                                                        
+<h3>Seeking someone to join them</h3>
 </div>
 <p class="subHeadP">
-Hello, my name Diego and I am passionate about business and technology. I currently work as an IT Risk Consultant at a Big-4.
-Simultaneously I'm starting a venture on the side in the social commerce arena.
-I am looking for a passionate front-end developer with superb UX skills... <a href="/profile/brooklyn-ny-business-developer-software-diego-regules-11059">more</a>                                                    </p>
+<%= member.description%>
+<%= link_to (member_path(member)) do %>more<% end %>
+</p>
+
 </div>
 </li>
 
@@ -171,11 +184,11 @@ I am looking for a passionate front-end developer with superb UX skills... <a hr
 
 <div style="left:115px;" class="left_arrow">
 <a class="left_right_mygaltop1 left_arrow_a" href="">
-<img width="30" height="30" alt="" src="/n/themes/basic/images/left_ar.png"></a> 
+<img width="30" height="30" alt="" src="/assets/left_ar.png"></a> 
 </div>
 <div style="left:314px;" class="right_arrow">
 <a class="left_right_mygaltop1 right_arrow_a" href="">
-<img width="30" height="30" alt="" src="/n/themes/basic/images/right_ar.png"></a>
+<img width="30" height="30" alt="" src="/assets/right_ar.png"></a>
 </div>
 
 
@@ -192,7 +205,7 @@ I am looking for a passionate front-end developer with superb UX skills... <a hr
 <div id="fav_msg_11059" class="fav_msg"></div>
 </div>
 
-<a href="/profile/brooklyn-ny-business-developer-software-diego-regules-11059"><img width="99" height="35" border="0" alt="" src="/n/themes/basic/images/readmore.png"></a>
+<a href="/profile/brooklyn-ny-business-developer-software-diego-regules-11059"><img width="99" height="35" border="0" alt="" src="/assets/readmore.png"></a>
 </div>
 
 

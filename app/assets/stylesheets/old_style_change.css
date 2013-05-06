@@ -189,7 +189,7 @@ div.pagination span.disabled {display:none;padding: 2px 5px 2px 5px;margin: 2px;
 .profileDetails .icon_events{width:32px; height:32px; background:url(../images/temp/idea.png) no-repeat; float:left;}
 .profileDetails .icon_heading1{width:32px; height:32px; background:url(../images/temp/icons_image.png) no-repeat scroll -128px 0px transparent; float:left;}
 .profileDetails .icon_heading3{width:32px; height:32px; background:url(../images/temp/icons_image.png) no-repeat scroll -160px 0px transparent; float:left;}
-.profileDetails .icon_heading2{width:32px; height:32px; background:url(../images/temp/icons_image.png) no-repeat scroll -192px 0px transparent; float:left;}
+.profileDetails .icon_heading2{width:32px; height:32px; background:url(/assets/icons_image.png) no-repeat scroll -192px 0px transparent; float:left;}
 .profileDetails .icon_forgot{width:32px; height:32px; background:url(../images/temp/inner_icon.png) 0px 0px no-repeat; float:left; margin-right:20px;}
 .profileDetails .icon_confirm{width:32px; height:32px; background:url(../images/temp/inner_icon.png) -32px 0px no-repeat; float:left; margin-right:20px;}
 .profileDetails .icon_contactus_new{width:32px; height:32px; background:url(../images/temp/inner_icon.png) -64px 0px no-repeat; float:left; margin-left:44px;}
