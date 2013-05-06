@@ -1,0 +1,104 @@
+@charset "utf-8";
+/* CSS Document */
+a { color: #1982d1; text-decoration: none; margin:0; padding:0; font-size:100%; vertical-align:baseline; background:transparent; outline:none;}
+
+/*========================================================================================
+							 HOME PAGE BLUE THEME START
+========================================================================================*/
+
+/*header section*/
+#nav ul li a:hover {color:#3a6ab0;}
+.signup ul li a:hover {color:#3a6ab0;}
+.rct_mch_logo { height:70px; background:url(../images/new_theme/rct_mch_bg.png) repeat-x left bottom; padding-top:33px;}
+.prf_pic:hover {border:1px solid #a3a3a3; -webkit-box-shadow: #c0daff 0px 0px 5px; -moz-box-shadow: #c0daff 0px 0px 5px; box-shadow: #c0daff 0px 0px 5px;}
+
+/*SIGN IN*/
+.signin_btn { background:url(../images/new_theme/srh_btn_bg.png) repeat-x left top; font-family: 'Open Sans',sans-serif; font-size:14px; padding:3px 10px; color:#FFF; float: right; cursor:pointer; border:1px solid #183e76; -webkit-border-radius:6px; -moz-border-radius: 6px; border-radius: 6px; behavior: url(css/PIE.htc); margin-top:10px;}
+#signin_menu .forgot a { color: #2e5c9f; font-family: 'Open Sans',sans-serif; font-size:10px; text-decoration:none;}
+#signin_menu .forgot a:hover { color: #477bc7;}
+/*dropdown logout*/
+.drop_cnt ul li a:hover { background-color:#f4f4f4; color:#3a6ab0;}
+
+.drop_cnt ul li a .prof { background:url(../images/new_theme/icons.png) no-repeat -30px -12px; float:left; margin:3px 19px 0 0; width:18px; height:17px; display:block;}
+.drop_cnt ul li a .cand { background:url(../images/new_theme/icons.png) no-repeat -30px -50px; float:left; margin:4px 19px 0 0; width:19px; height:14px; display:block;}
+.drop_cnt ul li a .msg { background:url(../images/new_theme/icons.png) no-repeat -30px -82px; float:left; margin:5px 19px 0 0; width:17px; height:12px; display:block;}
+.drop_cnt ul li a .stg { background:url(../images/new_theme/icons.png) no-repeat -30px -107px; float:left; margin:3px 19px 0 0; width:18px; height:18px; display:block;}
+.drop_cnt ul li a .logout_icon { background:url(../images/new_theme/icons.png) no-repeat -48px 0px; float:left; margin:3px 19px 0 0; width:18px; height:16px; display:block;}
+
+.drop_cnt ul li a:hover .prof { background-position:-30px -31px;}
+.drop_cnt ul li a:hover .cand { background-position:-30px -66px;}
+.drop_cnt ul li a:hover .msg { background-position:-30px -95px;}
+.drop_cnt ul li a:hover .stg { background-position:-30px -127px;}
+.drop_cnt ul li a:hover .logout_icon { background-position:-48px -18px;}
+
+
+/*home page adv search section*/
+.adv_srh a {background: #3a6ab0; font-family: 'HelveticaNeue-Medium'; font-size:13px; color:#fff; font-weight: normal; padding:8px 8px 20px 8px; text-align:center; display:block; z-index:1; position:relative; -webkit-border-radius: 6px;-moz-border-radius: 6px;border-radius: 6px;behavior: url(css/PIE.htc);}
+.adv_srh a:hover {background: #3662a3;}
+.qk_remove_wrap ul li { display:block; background-color: #3a6ab0; border-radius: 5px 5px 5px 5px; color: #FFFFFF;  float: left;  font-size: 11px;  margin: 0 8px 4px 0; width:auto; overflow:hidden; padding: 4px 6px 2px 8px; font-family: 'HelveticaNeue-Medium'; font-size:11px; color:#fff; text-transform:uppercase; font-weight: normal; height:15px; border:1px solid #214c8b; -webkit-border-radius: 3px;-moz-border-radius: 3px; border-radius: 3px; text-shadow:0px -1px #000; behavior: url(css/PIE.htc);}
+
+.qk_remove_wrap ul li > a { width:13px; height:13px; margin:0 0 0 7px; float:right; background:url(../images/new_theme/icons.png) no-repeat 0 -19px; display:block;}
+
+.select_roles .update { background:url(../images/new_theme/srh_btn_bg.png) repeat-x left top; font-family: 'Open Sans',sans-serif; font-size:14px; padding:0 10px 1px 10px; color:#FFF; float: right; cursor:pointer; border:1px solid #183e76; -webkit-border-radius:6px; -moz-border-radius: 6px; border-radius: 6px; behavior: url(css/PIE.htc); margin-top:10px; margin: 4px 0 3px;  width: 80px;}
+
+.slect_city_div .update { background:url(../images/new_theme/srh_btn_bg.png) repeat-x left top; font-family: 'Open Sans',sans-serif; font-size:14px; padding:0 10px 1px 10px; color:#FFF; float: right; cursor:pointer; border:1px solid #183e76; -webkit-border-radius:6px; -moz-border-radius: 6px; border-radius: 6px; behavior: url(css/PIE.htc); margin-top:10px; margin: 4px 0 3px;  width: 80px;}
+
+.select_intentions .update { background:url(../images/new_theme/srh_btn_bg.png) repeat-x left top; font-family: 'Open Sans',sans-serif; font-size:14px; padding:0 10px 1px 10px; color:#FFF; float: right; cursor:pointer; border:1px solid #183e76; -webkit-border-radius:6px; -moz-border-radius: 6px; border-radius: 6px; behavior: url(css/PIE.htc); margin-top:10px; margin: 4px 0 3px;  width: 80px;}
+
+/*Home Page Content Section*/
+.profileDetails h1 {font-size:22px; color:#3669b2; font-weight:bold;}
+.profileDetails h1 a{color:#3669b2; text-decoration:none;}
+.profileDetails h1 a:hover{color:#133c77;}
+
+/*added for new slider button*/
+.stripTransmitter a.slide1_normal{/* the links. */background:url(../images/iconset.png) 0 0 no-repeat;display:block;height:30px;width:30px;margin:7px 5px 0 0;}
+.stripTransmitter a.slide1_normal:hover{background:url(../images/iconset.png) -30px 0 no-repeat;}
+.stripTransmitter a.slide1_normal.current{ /* the links. */background:url(../images/iconset.png) -60px 0 no-repeat;display: block;height: 30px;width: 30px;margin:7px 5px 0 0;}
+.stripTransmitter a.slide2_normal{ /* the links. */background:url(../images/iconset.png) 0 -30px no-repeat;display: block;height: 30px;width: 30px;margin:7px 5px 0 0;}
+.stripTransmitter a.slide2_normal:hover{background:url(../images/iconset.png) -30px -30px no-repeat;}
+.stripTransmitter a.slide2_normal.current{ /* the links. */background:url(../images/iconset.png) -60px -30px no-repeat;display: block;height: 30px;width: 30px; margin:7px 5px 0 0;}
+.stripTransmitter a.slide3_normal{ /* the links. */background:url(../images/iconset.png) 0 -60px no-repeat;display: block;height: 30px;width: 30px;margin:7px 5px 0 0;}
+.stripTransmitter a.slide3_normal:hover{background:url(../images/iconset.png) -30px -60px no-repeat;}
+.stripTransmitter a.slide3_normal.current{ /* the links. */background:url(../images/iconset.png) -60px -60px no-repeat;display: block;height: 30px;width: 30px; margin:7px 5px 0 0;}
+.stripTransmitter a.slide4_normal{ /* the links. */background:url(../images/iconset.png) 0 -90px no-repeat;display: block;height: 30px;width: 30px;margin:7px 5px 0 0;}
+.stripTransmitter a.slide4_normal:hover{background:url(../images/iconset.png) -30px -90px no-repeat;}
+.stripTransmitter a.slide4_normal.current{ /* the links. */background:url(../images/iconset.png) -60px -90px no-repeat;display: block;height: 30px;width: 30px; margin:7px 5px 0 0;}
+.stripTransmitter a.slide5_normal{ /* the links. */background:url(../images/iconset.png) 0 -120px no-repeat;display: block;height: 30px;width: 30px;margin:7px 5px 0 0;}
+.stripTransmitter a.slide5_normal:hover{background:url(../images/iconset.png) -30px -120px no-repeat;}
+.stripTransmitter a.slide5_normal.current{ /* the links. */background:url(../images/iconset.png) -60px -120px no-repeat;display: block;height: 30px;width: 30px; margin:7px 5px 0 0;}
+.stripTransmitter a.slide6_normal{ /* the links. */background:url(../images/iconset.png) 0 -150px no-repeat;display: block;height: 30px;width: 30px;margin:7px 5px 0 0;}
+.stripTransmitter a.slide6_normal:hover{background:url(../images/iconset.png) -30px -150px no-repeat;}
+.stripTransmitter a.slide6_normal.current{ /* the links. */background:url(../images/iconset.png) -60px -150px no-repeat;display: block;height: 30px;width: 30px; margin:7px 5px 0 0;}
+/*added for new slider button end*/
+
+/*information start*/
+.information{color:#3669b2; font-weight:normal; font-family:Arial;}
+.information a{color:#3669b2; text-decoration:underline;}
+.info_mid, .info_mid_all{height:24px;width: 415px; line-height:24px; background:url(../images/Information_mid.png) 0px 0px no-repeat; padding-left:34px; font-size:15px;}
+.info_sml{height:16px; margin-top:10px; line-height:16px; background:url(../images/Information_sml.png) 0px 0px no-repeat; padding-left:24px; font-size:13px;}
+/*information end*/
+
+/*dont show confirm*/
+.confirm_Outer .cnfrm{width:82px; float:left; height:24px; background:url(../images/meet_but.png) left top repeat-x; color:#ffffff; margin:0 16px; font-weight:bold; border:solid 1px #1982d1; font-size:14px; cursor:pointer;}
+.heading h3{color:#1982d1; line-height:42px; font-weight:bold;}
+
+
+/*pagination starts*/
+div.pagination a { padding: 7px 11px 6px 10px;margin: 2px;border: 1px solid #AAAADD;background:#fff url(../images/normal_bg.jpg) repeat-x left bottom; height:28px; border:1px solid #bebebe;text-decoration: none; /* no underline */color: #4b4c50;-webkit-border-radius: 4px;-moz-border-radius: 4px;border-radius: 4px;	position:relative;behavior: url(css/PIE.htc);}
+div.pagination {padding:16px 0 0 20px;margin:0px 0 20px 0px;text-align:center;background:url(../images/pagination_bg.jpg) repeat-x left top; height:32px; border:1px solid #b5c1cf;}
+div.pagination a:hover, div.pagination a:active {border: 1px solid #3669B2;color: #000;}
+div.pagination span.current {padding: 7px 11px 6px 10px;margin: 2px;border: 1px solid #3669B2;font-weight: bold;background-color: #3669B2;color: #FFF;-webkit-border-radius: 4px;-moz-border-radius: 4px;border-radius: 4px;position:relative;behavior: url(css/PIE.htc);}
+/*pagination end*/
+
+/*Remove Fav*/
+.bottom .block_profile{height: 30px; width: 30px; background:url(../images/block_user.png) 0 0 no-repeat; cursor:pointer;}
+.bottom .block_profile:hover{height: 30px; width: 30px; background:url(../images/block_user.png) -30px 0 no-repeat;}
+.bottom .fav_signed_in,.fav_nt_sig{height: 30px; width: 30px; background:url(../images/save_to_fav.png) 0 0 no-repeat; cursor:pointer;}
+.bottom .fav_signed_in:hover,.fav_nt_sig:hover{height: 30px; width: 30px; background:url(../images/save_to_fav.png) -30px 0 no-repeat;}
+.bottom .favorited{width: 30px; height: 30px; background:url(../images/save_to_fav.png) -60px 0 no-repeat; display:block;}
+
+
+/*========================================================================================
+							 HOME PAGE BLUE THEME END
+========================================================================================*/
+
