@@ -1,19 +1,15 @@
-source 'https://rubygems.org'
+source 'http://rubygems.org'
 
-gem 'rails', '3.2.13'
+gem 'rails', '~> 3.2.13'
+gem 'rack', '~> 1.4.5'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-group :development, :test do
-  gem 'sqlite3'
-end
+gem 'mysql2'
+gem 'sqlite3'
 
-group :production do
-  gem 'thin'
-  gem 'mysql2'
-end
-gem 'activerecord-mysql2-adapter'
+
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
@@ -24,13 +20,12 @@ group :assets do
   # gem 'therubyracer', :platforms => :ruby
 
   gem 'uglifier', '>= 1.0.3'
+
   gem 'turbo-sprockets-rails3'
 end
 
 gem 'jquery-rails'
 
-gem 'thor'
-gem 'minitest'
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
@@ -45,3 +40,9 @@ gem 'minitest'
 
 # To use debugger
 # gem 'debugger'
+
+# This version needs to be hardcoded for OpenShift compatibility
+gem 'thor', '= 0.14.6'
+
+# This needs to be installed so we can run Rails console on OpenShift directly
+gem 'minitest'
